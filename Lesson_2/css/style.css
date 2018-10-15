@@ -1,0 +1,52 @@
+*{
+    font-size: 16px;
+}
+
+body {
+    background: darkgray;
+    padding: 0px;
+    margin: 0px;
+    background-size:  contain;
+    background: url("../img/fon2.jpg");
+    background-attachment: fixed;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.visit_card_tbl_head {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.main-pic{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.visit_card_tbl{
+    border: 1px solid black;
+    background-color: darkgray;
+    margin-top: 20px;
+}
+
+.visit_header-links{
+    color: blue;
+}
+
+.visit_header{
+    color: #333333;
+    font-weight: 100;
+    text-align: center;
+}

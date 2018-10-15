@@ -1,0 +1,64 @@
+
+*{
+    font-size: 16px;
+}
+
+body {
+    background: darkgray;
+    padding: 0px;
+    margin: 0px;
+    background: url("../img/horisontal.jpg");
+    background-size:  contain;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+.menu{
+    text-align: center;
+    padding: 10px;
+    border-top: 1px #999999 solid;
+    border-bottom: 1px #999999 solid;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 100;
+    margin: 0 10px;
+
+}
+
+footer{
+    text-align: center;
+    background: #999999;
+    border-top: 1px #333333 solid;
+    padding: 10px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.home_photo, goods_item{
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 19px;
+}
